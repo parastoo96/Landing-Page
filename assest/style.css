@@ -2,7 +2,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@200;300&display=swap');
- 
+
 body{
     background-color:#151719 ;
 }
@@ -157,6 +157,7 @@ hr{
     align-items: center;
 }
 .section2__top{
+    gap: 20px; ;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -247,6 +248,7 @@ hr{
     letter-spacing: -0.25px;
     color: #9BA9B4;
     margin-top:0.5rem;
+    width: 30rem;
 }
  .list__text{
     font-family: Inter;
@@ -266,6 +268,7 @@ hr{
     align-items:center;
     margin-right: 10.5rem;
     margin-left: 10.5rem;
+    margin-top: 4rem;
 }
 .section3__header{
 font-family: Inter;
@@ -395,6 +398,7 @@ input::placeholder{
     box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
     border-radius: 2px;
     border-style: none;
+    text-align: center;
     }
 
     /* ****************footer************** */
@@ -614,3 +618,54 @@ input::placeholder{
     letter-spacing: -0.25px;
     color: #9BA9B4;
    }
+
+   /*responsive */
+
+   @media (max-width: 768px) {
+    .cards{
+        display:flex;
+        flex-direction: column;
+    }
+    .section2__text{
+        padding: 0;
+    }
+    .section2__bottom_item{
+        flex-direction: column;
+    }
+    .section2__bottom__texts{
+        text-align: center;
+    }
+    .section2__bottom__texts__reverse{
+        text-align: center;
+    }
+    .section3__text{
+        margin: 0;
+    }
+    .section3__card{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .section3__card__item2{
+        margin: 0;
+    }
+    .sun__btn{
+        margin: 1rem 5.5rem;
+    }
+    .footer1{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .footer2{
+        flex-direction: column-reverse;
+    }
+    .social__icon{
+        margin: auto;
+    }
+    .copyright{
+        margin: 1rem auto;
+    }
+
+ 
+  }
