@@ -87,6 +87,7 @@ body{
  .video{
      margin-top:4rem ;
      margin-bottom:4rem ;
+     width: 50%;
  }
 .section1{
     display:flex;
@@ -490,7 +491,7 @@ input::placeholder{
         width: 25rem;
         height: 40.25rem;
         margin-top:2rem;
-        margin-left:33rem;
+        margin-left:45rem;
     }
     .google__btn{
         Width: 25rem;
@@ -634,6 +635,10 @@ input::placeholder{
     }
     .section2__bottom__texts{
         text-align: center;
+    }
+    .section2__bottom_item__reverse{
+        display: flex;
+        flex-direction: column;
     }
     .section2__bottom__texts__reverse{
         text-align: center;
